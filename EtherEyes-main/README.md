@@ -111,6 +111,7 @@ Team members:
 - [Aritra](https://github.com/aritroCoder)
 - [Padmaksh](https://github.com/Padmaksh-Mishra)
 - [Kartikay](https://github.com/KartuzGupta)
+- [Vishwas](https://github.com/RockyKGFV)
 
 ## References
 
