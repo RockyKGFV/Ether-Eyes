@@ -1,0 +1,44 @@
+{
+  "version": "0.2.0",
+  "description": "An gas fee estimation Snap written in TypeScript.",
+  "proposedName": "EtherEyes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aritroCoder/transaction-insights.git"
+  },
+  "source": {
+    "shasum": "fJDQ4+YMzMSWt+V0SJ68fPQfcMXiPBAn/38KtOkGtvg=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:transaction-insight": {},
+    "endowment:network-access": {},
+    "snap_manageState": {},
+    "snap_notify": {},
+    "endowment:cronjob": {
+      "jobs": [
+        {
+          "expression": {
+            "minute": "*/3",
+            "hour": "*",
+            "dayOfMonth": "*",
+            "month": "*",
+            "dayOfWeek": "*"
+          },
+          "request": {
+            "method": "exampleMethodOne",
+            "params": {}
+          }
+        }
+      ]
+    }
+  },
+  "manifestVersion": "0.1"
+}
